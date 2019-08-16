@@ -1,0 +1,42 @@
+p {
+    color: black;
+    display: flex;
+    justify-content: left;
+}
+
+.studieaanbody {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 20px;
+}
+
+.rechts {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0 0 0 15px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+}
+
+.inschrijving {
+    height: 300px;
+}
+
+.links {
+    padding-right: 15px;
+}
+
+button {
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: #c0302c;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+    border-radius: 12px;
+}

@@ -1,0 +1,50 @@
+.infopers {
+    display: flex;
+    object-fit: cover;
+    height: 300px;
+    width: 500px;
+    margin: 2em auto 0em auto
+}
+
+.containerinfo1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.containerinfo2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.schoolinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.tekst {
+    padding-top: 160px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+} 
+
+.info {
+    padding: 0 0 0 20px;
+}
+
+button {
+    position: absolute;
+    margin-left: 650px;
+    margin-top: -70px;
+    padding: 5px 20px 5px 20px;
+    background-color: #c0302c;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+    border-radius: 12px;
+}
