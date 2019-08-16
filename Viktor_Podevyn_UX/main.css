@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    height: 30px;
+    text-align: flex-start;
+    padding: .8em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    height: 30px;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+.hide-desktop {
+    display: none;
+}
+
+.show-desktop {
+    display: flex
+}
+
+.mainlogo {
+    width: 30%;
+    margin: 2em auto 0em auto;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.foto {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*.container2 {
+    background-image: url(images/vorm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 39%;
+}*/
+
+.vorm {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.three {
+    width: 130px;
+    margin: 2em auto 2em auto;
+}
+
+.drielogo {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.logowrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+}
+
+.container1 {
+    background-color: #212326;
+    padding: 40px;
+}
+
+.mail {
+    width: 20px;
+}
+
+.telefoon {
+    width: 20px;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.GO {
+    width: 130px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.layout {
+    justify-content: space-between;
+}
+
+.half {
+    width: 49%;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+.redcontainer {
+    background-color: #c0302c;
+    padding: 30px 10px 20px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navitem {
+    padding: 20px 5px 0px 5px
+}
+
+.padding {
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #212326;
+}
+
+.maps {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.review {
+    font-size: 36px;
+}
+
+button {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: #c0302c;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+    border-radius: 12px;
+}
